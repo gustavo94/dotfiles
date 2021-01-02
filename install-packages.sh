@@ -35,6 +35,7 @@ pacman -S jdk8-openjdk intellij-idea-community-edition  --noconfirm
 pacman -S dbeaver --noconfirm
 pacman -S docker --noconfirm
 ### docker user configuration
+sudo systemctl enable docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker 
