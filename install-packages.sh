@@ -5,8 +5,8 @@ pacman -Syyu  --noconfirm
 #	Daily and personal use			#
 #################################################
 
-pacman -S firefox chromium brave nss  --noconfirm 
-pacman -S xclip --noconfirm
+#pacman -S firefox chromium brave nss  --noconfirm 
+#pacman -S xclip --noconfirm
 
 ### GPU 
 # pacman -S nvidia  --noconfirm 
